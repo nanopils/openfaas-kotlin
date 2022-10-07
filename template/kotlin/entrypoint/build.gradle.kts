@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.s1monw1:openfaas-kotlin-model:1.0.0")
+    implementation("com.github.nanopils:openfaas-kotlin-model:1.0.0")
     implementation("com.openfaas.kotlin.template:function")
     implementation(kotlin("stdlib-jdk8"))
 
