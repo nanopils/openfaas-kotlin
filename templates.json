@@ -3,27 +3,18 @@
     "template": "kotlin",
     "platform": "x86_64",
     "language": "Kotlin",
-    "source": "s1monw1",
+    "source": "nanopils",
     "description": "Classic Kotlin template",
-    "repo": "https://github.com/s1monw1/openfaas-kotlin",
+    "repo": "https://github.com/nanopils/openfaas-kotlin",
     "official": "false"
   },
   {
     "template": "kotlin-http4k",
     "platform": "x86_64",
     "language": "Kotlin",
-    "source": "s1monw1",
+    "source": "nanopils",
     "description": "http4k backed Kotlin template",
-    "repo": "https://github.com/s1monw1/openfaas-kotlin",
-    "official": "false"
-  },
-  {
-    "template": "kotlin-quarkus-native",
-    "platform": "x86_64",
-    "language": "Kotlin",
-    "source": "s1monw1",
-    "description": "Native Kotlin template powered by Quarkus",
-    "repo": "https://github.com/s1monw1/openfaas-kotlin",
+    "repo": "https://github.com/nanopils/openfaas-kotlin",
     "official": "false"
   }
 ]
