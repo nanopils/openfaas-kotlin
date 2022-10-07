@@ -2,7 +2,7 @@
 
 This repository contains multiple Kotlin templates for OpenFaaS.
 ```
-$ faas-cli template pull https://github.com/s1monw1/openfaas-kotlin
+$ faas-cli template pull https://github.com/nanopils/openfaas-kotlin
 $ faas new --list
 
 Languages available as templates:
@@ -19,7 +19,7 @@ This template runs without any dependency and bootstraps its own ``com.sun.net.h
 ### Trying the template
 
 ```
-$ faas-cli template pull https://github.com/s1monw1/openfaas-kotlin
+$ faas-cli template pull https://github.com/nanopils/openfaas-kotlin
 $ faas new --lang kotlin <fn-name>
 ```
 
@@ -78,7 +78,7 @@ This template is backed by [http4k](https://www.http4k.org/), a lightweight func
 ### Trying the template
 
 ```
-$ faas-cli template pull https://github.com/s1monw1/openfaas-kotlin
+$ faas-cli template pull https://github.com/nanopils/openfaas-kotlin
 $ faas new --lang kotlin-http4k <fn-name>
 ```
 
@@ -125,14 +125,3 @@ class Handler : HttpHandler {
 ```
 
 The `body` will be written to the client along with a HTTP 500 status code.
-
-## kotlin-quarkus-native template 
-
-This template is backed by [Quarkus](https://quarkus.io/), a framework to build cloud-native JVM-based applications powered by GraalVM.
-
-### Trying the template
-
-```
-$ faas-cli template pull https://github.com/s1monw1/openfaas-kotlin
-$ faas new --lang kotlin-quarkus-native <fn-name>
-```
