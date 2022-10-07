@@ -8,7 +8,6 @@ $ faas new --list
 Languages available as templates:
 - kotlin
 - kotlin-http4k
-- kotlin-quarkus-native
 ```
 
 
