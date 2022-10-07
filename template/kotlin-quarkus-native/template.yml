@@ -1,3 +1,0 @@
-language: quarkus-native-gradle
-welcome_message: |
-  Welcome to your new Kotlin Quarkus native function. The template gets built with Gradle.
